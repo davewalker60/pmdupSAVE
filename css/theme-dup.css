@@ -12,7 +12,7 @@
     --heading_color: #1b212c;
     --background_color: #red;
 /*    --nav_background: var(--banner_color); */
-    --nav_background: linear-gradient(to right, var(--sand_color), var(--sea_color), var(--sky_color), var(--ocean_color));
+    --nav_background: linear-gradient(to bottom, var(--sand_color), var(--sea_color), var(--sky_color), var(--ocean_color));
     --nav_background_opposite: linear-gradient(to bottom, var(--banner_color), var(--shs_low_blue));
   }
 
