@@ -5,14 +5,14 @@
     --banner_color: #40bfd0;
     --banner_text_color: white;
     --banner_text_hover_color: #35929e;
-    --sand_color: #daab32;
+    --sand_color: #f9e98e;
     --sea_color: #40bfd0;
     --ocean_color: #2E68FF;
-    --sky_color: #2EA7FF;
+    --sky_color: #87ceeb; /*2EA7FF;*/
     --heading_color: #1b212c;
     --background_color: #red;
 /*    --nav_background: var(--banner_color); */
-    --nav_background: linear-gradient(to right, var(--sand_color), var(--sea_color), var(--sky_color));
+    --nav_background: linear-gradient(to right, var(--sand_color), var(--sea_color), var(--ocean_color));
     --nav_background_opposite: linear-gradient(to bottom, var(--banner_color), var(--shs_low_blue));
   }
 
@@ -65,6 +65,7 @@ a[data-toggle="tooltip"] {
 .navbar-inverse {
     background-color: var(--banner_color);
     border-color: var(--banner_color);
+    border: none;
 }
 .navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-brand {
     color: var(--banner_text_color);
@@ -84,7 +85,7 @@ navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:
 }
 
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-    border-color: #4978c4 !important;
+    border-color: var(--banner_color) !important;
 }
 
 .btn-primary {
