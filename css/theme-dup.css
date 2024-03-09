@@ -7,12 +7,12 @@
     --banner_text_hover_color: #35929e;
     --sand_color: #f9e98e;
     --sea_color: #40bfd0;
-    --ocean_color: #2E68FF;
+    --ocean_color: #112090; /*#4f42b5; /* #2E68FF;*/
     --sky_color: #87ceeb; /*2EA7FF;*/
     --heading_color: #1b212c;
     --background_color: #red;
 /*    --nav_background: var(--banner_color); */
-    --nav_background: linear-gradient(to right, var(--sand_color), var(--sea_color), var(--ocean_color));
+    --nav_background: linear-gradient(to right, var(--sand_color), var(--sea_color), var(--sky_color), var(--ocean_color));
     --nav_background_opposite: linear-gradient(to bottom, var(--banner_color), var(--shs_low_blue));
   }
 
