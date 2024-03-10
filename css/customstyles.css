@@ -380,8 +380,8 @@ a.accordion-toggle, a.accordion-collapsed {
     margin: 2px 0;
 }
 
+/* Left nav top level dropdown text */
 .nav a {
-    color: #333;
     display: block;
     /*-webkit-border-radius: 4px;
     -moz-border-radius: 4px;
@@ -403,20 +403,10 @@ a.accordion-toggle, a.accordion-collapsed {
     content: '\25b4';
 }
 
-.nav a:hover, .nav li.active > a {
-    background-color: #8D8D8D;
-    color: #f5f5f5;
-}
-
-.nav > li.active > a  {
-background-color: #2E68FF;
-}
-
 .nav li a {
     font-size: 12px;
     line-height: 18px;
     padding: 2px 10px;
-    background-color: #f1f1f1;
 }
 
 .nav > li > a {
@@ -433,24 +423,8 @@ ul#mysidebar {
     padding-left:40px;
 }
 
-.nav li.thirdlevel > a {
-    color: #248EC2;
-    font-weight:bold;
-    padding-left:20px;
-    background-color: whitesmoke !important;
-}
-
-
-.nav ul li a {
-    background-color: #FAFAFA;
-}
-
 .nav li a {
     padding-right:10px;
-}
-
-.nav li a:hover {
-    background-color: #8D8D8D;
 }
 
 .nav ul li a {
@@ -586,7 +560,7 @@ a.dropdown-toggle, .navbar-inverse .navbar-nav > li > a  {
 }
 
 .navbar a:focus {
-    outline: 1px solid #fff;
+    /* outline: 1px solid #fff; */
 }
 
 hr.faded {
@@ -650,7 +624,7 @@ h4 {color: #808080; font-weight:normal; font-size:120%; font-style:italic;}
 
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
     background-color: #248ec2;
-    color: white;
+    color: red;
 }
 
 ol li ol li {list-style-type: lower-alpha;}
@@ -758,11 +732,6 @@ ol.series li {
     color: silver;
     color: #444;
     display:block;
-}
-
-/* not sure if using this ...*/
-.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-    border-color: #248ec2 !important;
 }
 
 #mysidebar .nav ul {
@@ -1055,12 +1024,9 @@ span.label.label-primary {
 }
 .col-lg-12 .nav li a {background-color: white}
 
-
 .nav li.active > a.subfoldersTitle {
-    background-color: whitesmoke;
     font-weight: bold;
-    color: black;
-    }
+}
 
 a code {
     color: #248EC2;
