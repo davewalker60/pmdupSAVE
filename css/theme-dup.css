@@ -192,10 +192,10 @@ div.sidebarTitle {
 li.sidebarTitle {
     text-align: center;
     padding: 10px 0 10px 0;
-    font-size: 90%;
-    background: var(--banner_color);
+    font-weight: bold;
+    /* font-size: 90%; */
+    background: white; /*var(--banner_color);*/
     color: var(--banner_text_color);
-    
 }
 
 .sidebartext{
