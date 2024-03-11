@@ -447,6 +447,10 @@ ul#mysidebar {
     padding-top: 0px;
 }
 
+.navbar-right {
+    float: right!important;
+}
+
 .navbar-inverse .navbar-nav > li > a {
     background-color: transparent;
     margin-top:10px;
