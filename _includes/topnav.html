@@ -8,15 +8,16 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
+<!-- Replace w/DUP logo  <a class="fa fa-home fa-lg navbar-brand" href="{{ site.url | append: site.baseurl }}/index.html"><span class="projectTitle"> {{site.topnav_title}}</span></a> -->
             <a class="navbar-brand" href="{{ site.url | append: site.baseurl }}/index.html"><span class="projectTitle"><img src="{{ "images/duplogo-black.gif" }}" height="24" class="noborder"> {{site.topnav_title}}</span></a>
-<!--            <a class="fa fa-home fa-lg navbar-brand" href="{{ site.url | append: site.baseurl }}/index.html"><span class="projectTitle"> {{site.topnav_title}}</span></a> -->
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
+<!-- Separate nav from navbar! <ul class="nav navbar-nav navbar-right"> -->
+            <ul class="navbar-nav">
                 <!-- toggle sidebar button -->
-<!--                <li><a id="tg-sb-link" href="#"><i id="tg-sb-icon" class="fa fa-toggle-on"></i> Side Nav</a></li>
-                <!-- entries without drop-downs appear here -->
+<!-- Hide toggle <li><a id="tg-sb-link" href="#"><i id="tg-sb-icon" class="fa fa-toggle-on"></i> Side Nav</a></li> -->
 
+                <!-- entries without drop-downs start here -->
 {% assign topnav = site.data[page.topnav] %}
 {% assign topnav_dropdowns = site.data[page.topnav].topnav_dropdowns %}
 
@@ -31,7 +32,7 @@
                 {% endif %}
                 {% endfor %}
                 {% endfor %}
-                <!-- entries with drop-downs appear here -->
+                <!-- entries with drop-downs start here -->
                 <!-- conditional logic to control which topnav appears for the audience defined in the configuration file.-->
                 {% for entry in topnav_dropdowns %}
                 {% for folder in entry.folders %}

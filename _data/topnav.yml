@@ -3,12 +3,14 @@
 topnav:
 - title: Topnav
   items:
-    - title: Overview
-      url: /25index.html
-    - title: Winter Camp '25
-      url: /25index.html
-    - title: Winter Camp '24
-      url: /24index.html
+    - title: Winter Camp
+      url: /overview.html
+    - title: Registration
+      url: /registration.html
+    - title: Lodging
+      url: /lodging.html
+    - title: Travel
+      url: /travel.html
 
 #Topnav dropdowns
 topnav_dropdowns:
