@@ -338,8 +338,8 @@ li.dropdownActive a {
 
 .navbar-nav li {
     list-style: none;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 0px;
+    padding-right: 20px;
     padding-top: 0px;
     padding-bottom: 0px;
     margin-top: 15px;
@@ -455,9 +455,12 @@ a.dropdown-toggle, .navbar-inverse .navbar-nav > li > a  {
     margin-left: 10px;
 }
 
+.navbar a:hover {
+    text-decoration: none;
+}
+
 .navbar a:focus {
     /* outline: 1px solid #fff; */
-}
 
 span.projectTitle {
     font-family: Helvetica;
@@ -1103,7 +1106,7 @@ h2.userMapTitle {
 
 #userMap a:hover {
     text-decoration: none;
-  }
+}
 
 div.arrow {
     max-width: 50px;

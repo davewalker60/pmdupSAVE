@@ -78,8 +78,8 @@ navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:
 }
 
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
-    background-color: var(--banner_color);
-    color:  var(--banner_text_color);
+    background-color: transparent;
+    color: var(--banner_text_color);
 }
 
 .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
