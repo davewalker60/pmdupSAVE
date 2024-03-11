@@ -458,10 +458,12 @@ a.dropdown-toggle, .navbar-inverse .navbar-nav > li > a  {
 
 .navbar a:focus {
     /* outline: 1px solid #fff; */
+}
 
 span.projectTitle {
     font-family: Helvetica;
     font-weight: bold;
+    margin-right: 40px;
 }
 /* END TOP/BANNER NAV CUSTOMIZING */
 
