@@ -34,7 +34,6 @@ h4 {color: var(--heading_color);}
 
 /* BANNER / TOP NAV */
 .navbar {
-    padding: 10px;
     background: var(--banner_gradient);
 }
 

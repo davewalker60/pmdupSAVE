@@ -328,21 +328,6 @@ li.dropdownActive a {
     color: orange;
 }
 
-.navbar-inverse .navbar-nav > li > a {
-    background-color: transparent;
-    margin-top:10px;
-}
-
-.navbar-nav li {
-    list-style: none;
-    padding-left: 0px;
-    padding-right: 20px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    margin-top: 15px;
-    margin-bottom: 0px;
-}
-
 .post-content .rssfeedLink {
     color: #248EC2;
 }
@@ -440,6 +425,43 @@ ul#mysidebar {
 /* END SIDEBAR */
 
 /* START TOP/BANNER NAV CUSTOMIZING */
+.navbar {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.navbar-brand {
+    padding/*-top: 10px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    padding-right*/: 10px;
+}
+
+.navbar-nav {
+    float: none!important;
+    /*margin-top: 7.5px;
+    padding-top: 10px;*/
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    background-color: transparent;
+    margin-top:10px;
+}
+
+.navbar-nav li {
+    list-style: none;
+    padding-left: 0px;
+    padding-right: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 10px;
+    /*margin-bottom: 10px;*/
+}
+
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
     border-radius:5px;
 }
@@ -463,7 +485,7 @@ a.dropdown-toggle, .navbar-inverse .navbar-nav > li > a  {
 span.projectTitle {
     font-family: Helvetica;
     font-weight: bold;
-    margin-right: 40px;
+    margin-right: 80px;
 }
 /* END TOP/BANNER NAV CUSTOMIZING */
 
@@ -1215,8 +1237,10 @@ h4.panel-title {
     }
     .navbar-nav {
         float: none!important;
-        margin-top: 7.5px;
-        padding-top: 10px;
+        /*margin-top: 7.5px;
+        padding-top: 10px;*/
+        margin-top: 0px;
+        padding-top: 0px;
         padding-bottom: 10px;
         line-height: 20px
     }
