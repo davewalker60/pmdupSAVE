@@ -52,8 +52,12 @@
                 </li>
                 {% endfor %}
                 {% endfor %}
-                {% if site.feedback_disable == null or site.feedback_disable == false %}
-			{% include feedback.html %}
+
+<!-- Put a little space between the tabs and the static stuff -->
+            <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+
+            {% if site.feedback_disable == null or site.feedback_disable == false %}
+ 			    {% include feedback.html %}
 		{% endif %}
                 <!--comment out this block if you want to hide search-->
                 <li>
