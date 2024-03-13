@@ -17,4 +17,3 @@ Unlike the typical DUP camps that happen at a contained retreat venue with on-si
 * Tends toward community building rather than deep spiritual practice
 * Is a DUP community vacation
 * Views snorkeling, cenote and ruin trips, etc not as distractions, but rather as part of what this camp is about
-
