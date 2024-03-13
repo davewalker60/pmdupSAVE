@@ -4,27 +4,43 @@ entries:
 - product: Not using - product level commented out in sidebar.html
   version: 
 
-- title: Winter Camp
+- title: Not using - product level commented out in sidebar.html
   folders:
   
   - title: About Camp
     output: web, pdf
     folderitems:
 
-    - title: About Camp
+    - title: A Different Kind of Camp
       url: /overview.html
       output: web, pdf
 #      type: homepage
 
-    - title: About Puerto Morelos
+    - title: Leaders
+      url: /overview.html
+      output: web, pdf
+
+    - title: Activities
+      url: /overview.html
+      output: web, pdf
+  
+  - title: About PM & QRoo
+    output: web, pdf
+    folderitems:
+
+    - title: Puerto Morelos
       url: /tutorial.html
       output: web, pdf
 
-    - title: Site Updates
+    - title: Snorkeling
       url: /contribute-to-the-project.html
       output: web, pdf
 
-    - title: Quick Reference LInks
+    - title: Cenotes
+      url: /create-account.html
+      output: web, pdf
+
+    - title: Mayan Ruins
       url: /create-account.html
       output: web, pdf
 
@@ -32,27 +48,43 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: Installing the Backend System
-      url: /install-backend.html
+    - title: Registration
+      url: /registration.html
       output: web, pdf
 
-    - title: Installing the App SDK
+    - title: Lodging
+      url: /registration.html#Lodging
+      output: web, pdf
+
+    - title: Travel
       url: /install-sdk.html
       output: web, pdf
 
-    - title: Installing the Web Portal
+    - title: WhatsApp
+      url: /before-camp.html#whatsapp
+      output: web, pdf
+
+    - title: Covid Care Guidelines
+      url: /before-camp.html#covid-care-guidelines
+      output: web, pdf
+
+    - title: WhatsApp
       url: /install-portal.html
       output: web, pdf
 
-    - title: Connecting your Database
-      url: /configure-database.html
+    - title: Acquiring Pesos
+      url: /install-portal.html
+      output: web, pdf
+
+    - title: Cell Phones
+      url: /install-portal.html
       output: web, pdf
 
   - title: While at Camp
     output: web, pdf
     folderitems:
 
-    - title: Overview
+    - title: Camp Schedule
       url: /create-app.html
       output: web, pdf
 
@@ -65,11 +97,11 @@ entries:
           url: /create-eligibility-questions.html
           output: web, pdf
 
-    - title: Configuring the App
+    - title: Partial Attendance
       url: /configure-app.html
       output: web, pdf
 
-    - title: Testing the App
+    - title: Tipping
       url: /test-app.html
       output: web, pdf
   
@@ -81,7 +113,7 @@ entries:
       url: /contribute-to-the-project.html
       output: web, pdf
 
-    - title: LInks
+    - title: Links
       url: /create-account.html
       output: web, pdf
 # Copyright 2021 Google LLC
