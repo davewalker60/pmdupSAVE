@@ -5,7 +5,8 @@
   <!-- <li class="sidebarTitle">{{sidebar[0].product}}<br>{{sidebar[0].version}}</li> -->
   {% for entry in sidebar %}
 
-  <p class="sidebartext">{{entry.title}}</p>
+  <!-- not using Product level - comment out for better spacing -->
+  <!-- <p class="sidebartext">{{entry.title}}</p> -->
 
   {% for folder in entry.folders %}
   {% if folder.output contains "web" %}
