@@ -1,0 +1,28 @@
+# Ivan's sidebar.py script creates doc_sidebar.yml from this simplified tree structure.
+# Text here becomes text in the sidebar at the corresponding tree (DOCS-indentation) level.
+# Numbers here are file link IDs that correspond to sidebar_link: entries found in the .md file headers. 
+# File link IDs are only allowed on tree level 3 and, when level 3 is just a heading, level 4.
+# Also, due to the way Jekyll parses the tree, each level 3 immediately below a level 2 MUST have a link.
+Not Used:
+    About Camp:
+        A Different Kind of Camp: 0
+        Leaders: 1
+        Activities:
+            Dance Sessions: 73
+            Late-Night Song Circle: 76
+            Community Offerings:
+                Qigong: 81
+                Sound Healing Circle: 83
+            Rumi Cafe: 20
+            Beach Palapa: 21
+    About PM & QRoo:
+        Puerto Morelos: 13
+        Snorkeling: 12
+        Botanical Gardens: 22
+        Croco Zoo: 11
+        Cenotes:
+        Mayan Ruins: 19
+    Registration:
+    Quick Reference:
+        External to this Site: 85
+        Within this Site: 34

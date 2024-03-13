@@ -12,7 +12,7 @@ entries:
     folderitems:
 
     - title: A Different Kind of Camp
-      url: /overview.html
+      url: /about-camp.html
       output: web, pdf
 #      type: homepage
 
@@ -47,6 +47,18 @@ entries:
   - title: Preparing for Camp
     output: web, pdf
     folderitems:
+
+    - title: All Topics
+      url: /all-prep.html
+      output: web, pdf
+
+    - title: WhatsApp
+      url: /whatsapp.html
+      output: web, pdf
+
+    - title: Cell Phones
+      url: /cell-phones.html
+      output: web, pdf
 
     - title: Registration
       url: /registration.html
