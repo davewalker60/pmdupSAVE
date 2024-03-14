@@ -77,7 +77,7 @@ entries:
       output: web, pdf
 
     - title: Acquiring Pesos
-      url: /install-portal.html
+      url: /before-camp.html
       output: web, pdf
 
   - title: While at Camp
