@@ -3,7 +3,7 @@
 topnav:
 - title: Topnav
   items:
-    - title: Winter Camp
+    - title: About Camp
       url: /index.html
     - title: Registration
       url: /registration.html
