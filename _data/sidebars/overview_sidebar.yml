@@ -72,23 +72,11 @@ entries:
       url: /install-sdk.html
       output: web, pdf
 
-    - title: WhatsApp
-      url: /before-camp.html#whatsapp
-      output: web, pdf
-
     - title: Covid Care Guidelines
-      url: /before-camp.html#covid-care-guidelines
-      output: web, pdf
-
-    - title: WhatsApp
-      url: /install-portal.html
+      url: /before-camp.html
       output: web, pdf
 
     - title: Acquiring Pesos
-      url: /install-portal.html
-      output: web, pdf
-
-    - title: Cell Phones
       url: /install-portal.html
       output: web, pdf
 
