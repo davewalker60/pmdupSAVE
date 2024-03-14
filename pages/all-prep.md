@@ -10,8 +10,8 @@ This page shows all the Preparing for Camp topics in a scrollable format.
 
 ## WhatsApp
 
-{% include_relative whatsapp-content.md %}
+<!--{% include_relative whatsapp-content.md %}
 
 ## Cell Phones
 
-{% include_relative cell-phones-content.md %}
+{% include_relative cell-phones-content.md %}-->

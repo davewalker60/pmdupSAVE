@@ -73,7 +73,7 @@ entries:
       output: web, pdf
 
     - title: Covid Care Guidelines
-      url: /before-camp.html
+      url: /covid-content.html
       output: web, pdf
 
     - title: Acquiring Pesos
